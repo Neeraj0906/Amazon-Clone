@@ -171,6 +171,7 @@ Amazon website clone
 </body>
 </html>
 
+<<<<<<scroll down for css part>>>>>
 
 
 
