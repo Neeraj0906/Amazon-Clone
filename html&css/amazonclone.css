@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+:root{
+    --color1: white;
+    --color2: orange;
+    --color3: grey;
+    --bg-nav:rgb(29, 29, 67);
+    --bg-subnav:#232f3e;
+    --body-bg:#eaeded;
+}
+body{
+    background-color: var(--body-bg);
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.d-flex{
+    display: flex;
+}
+nav{
+    margin: 0px;
+    width: 100%;
+    background-color: var(--bg-nav);
+    align-items: center;
+    position: sticky;
+    margin-top: 0;
+    z-index: 1000;/*if the z-index value is high then the image will be supiriour , and that is how different stacking of elements are done*/
+}   
+nav .nav-brand a img{ /*for brand logo*/
+    width: 100px;
+    margin: 20px 18px 0 ;
+}
+
+nav .nav-brand a{/*for brand and .in*/
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 5px;
+    font-weight: 600;
+    color:var(--color1);
+}
+nav .nav-brand:hover{/* only for hovering*/
+    border: 1px solid var(--color2);
+    /*margin: -1px;*/
+    border-radius: 3px;
+}
+nav .nav-brand a span{/*for .in*/
+    font-size: 18px;
+    margin-left: -17px;
+    color: var(--color1);
+}
+nav .d-inline-block{/*for location*/
+    color: var(--color1);
+    padding: 10px;
+}
+nav .d-inline-block:hover{
+    border: 2px solid var(--color2);
+    border-radius: 3px;
+}
+nav .addr a { /*for a inside address*/
+    padding: 10px;
+    color: var(--color1);
+}
+nav .addr p h3{ /*for p and h inside addr and inside a*/
+    font-size: 12px;
+    line-height: 15px;
+    
+}
+nav .addr:hover{ 
+    border: 1px solid var(--color2);
+    border-radius: 3px;
+}
+nav .search{/* for search icon*/
+    flex: 1;
+}
+nav .search:hover{
+    border-radius: 2px;
+    border: 1px solid var(--color2);
+}
+
+nav .search #allmenu{
+    border-radius: 5px 0px 0px 5px;
+}
+nav .search #allmenu option{
+    border-radius: 5px 0px 0px 5px;
+    background-color: var(--color2);
+}
+
+nav .search input{
+    width: 100%;
+    padding: 10px;
+    border: 0;/*none also can be return instead of zero*/
+}
+nav .search .fa-magnifying-glass{
+    padding: 10px  15px;
+    background-color: var(--color2);
+    border-radius: 0 5px 5px 0;
+}
+nav .countryflag{
+    padding: 10px;
+    color: var(--color1);
+    margin-left: 10px;
+}
+nav .nav_menu li a{
+    color: var(--color1);
+    font-size: 12px;
+    margin: 10px;
+}
+nav .nav_menu li a span{
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px;
+}
+nav .nav_menu li:hover{
+    border: 1px solid var(--color1);
+    border-radius: 3px;
+
+}
+.submenu{
+    background-color: var(--bg-subnav);
+    padding: 16px;
+}
+.submenu a{
+    color: var(--color1);
+    font-size: 14px;
+    margin: 0 35px;
+    padding: 10px;
+}
+.submenu i{
+   
+    padding: 6px;
+}
+.fa-amazon {
+    background-color: var(--color2);
+}
+.submenu a:hover{
+    border: 1px solid var(--color1);
+    border-radius: 3px;
+}
+.banner img{
+    width: 100%;
+    
+    mask-image: linear-gradient(90deg,#000000,transparent);
+    mask-image: radial-gradient(#000000 50%,white);
+}
+.product{
+    background-color: rgb(85, 231, 231);
+    
+}
+.product .productsmall p,a{
+    font-size: large;
+    text-align: left;
+    color: rgb(26, 42, 18);
+}
+
+.product .productsmall img{
+    width: 30%;
+    border-radius: 40px;
+    box-shadow: 2px 2px 5px black;
+    border: 16px solid rgb(235, 230, 218);
+    
+}
