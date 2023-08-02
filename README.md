@@ -1,3 +1,15 @@
+Amazon clone is my first web development project , I built it using HTML and CSS .
+it is a static website that I built , I used fontawesome which is a internet library and toolkit used by many developers .
+it is mostly for icons , it has different collections of icons and that are ready to use for the developers.
+the website is almost same the real website but without backend .
+so in the header we have the search bar, amazon icon, address, sign in button, return & order and add to cart.
+and in the nav bar we can display main events and products etc.
+and i put one banner to give the feel of the real one.
+inside the banners i put some product images and see more option and if you click on see more option the you can see the content about the product.
+
+
+
+
 # Amazon-Clone
 Amazon website clone
 <--! HTML part-->
